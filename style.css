@@ -1,0 +1,23 @@
+.croissant{
+    width: 400px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-family: "Raleway", system-ui;
+    margin: 25px auto;
+    display: flex;
+    justify-content: center; 
+    font-weight: 700;
+}
+p{
+    margin: 25px auto;
+    text-align: center;
+    max-width: 900px;
+    font-family: "Quicksand", sans-serif;
+}
+body{
+    margin-top:70px;
+    background-color: #d9cdc9;
+}
