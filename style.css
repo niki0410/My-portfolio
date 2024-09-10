@@ -1,23 +1,42 @@
-.croissant{
-    width: 400px;
-    margin: 15px auto;
-    display: flex;
-    justify-content: center;
+:root{
+    --branding-color: #b0cab0;
+    --secondary-color: #e4e6e4;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Raleway", system-ui;
+    --body-font-family: "Quicksand", sans-serif;
 }
-h1{
-    font-family: "Raleway", system-ui;
-    margin: 25px auto;
-    display: flex;
-    justify-content: center; 
-    font-weight: 700;
+.hero h1{
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    font-size: 96px;
+
 }
-p{
-    margin: 25px auto;
-    text-align: center;
-    max-width: 900px;
-    font-family: "Quicksand", sans-serif;
+.hero h2{
+    font-family: var(--default-font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 2;
+}
+.hero p{
+    font-family: var(--body-font-family);
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0;
+    color:#272142;
 }
 body{
-    margin-top:70px;
-    background-color: #cfd9cc;
+    margin-top:40px;
+    font-family: var(--body-font-family);
+}
+.hero{
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+.btn-branding{
+    background-color: var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
