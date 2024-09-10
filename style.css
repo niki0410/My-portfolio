@@ -36,7 +36,7 @@ p {
   color: #272142;
 }
 body {
-  margin-top: 40px;
+  /* margin-top: 40px; */
   font-family: var(--body-font-family);
 }
 .hero {
@@ -72,9 +72,7 @@ body {
   background-color: var(--branding-color);
   color: #fff;
 }
-.project-description {
-  padding: 120px 60px;
-}
+
 img{
     width:560px;
 }
