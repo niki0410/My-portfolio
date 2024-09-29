@@ -3,14 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="This is a page about croissant...">
+    <meta name="description" content="This is a page about croissant..." />
 
     <title>Photo - croissant.com</title>
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>"
     />
-    <script src="https://kit.fontawesome.com/51ce21c006.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/51ce21c006.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -59,7 +62,7 @@
                 >About</a
               >
             </li>
-            <li class="nav-item"></li>
+            <li class="nav-item">
               <a class="nav-link" href="works.html">My works</a>
             </li>
             <li class="nav-item">
@@ -69,12 +72,25 @@
         </div>
       </div>
     </nav>
-    <h1>About</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus tenetur
-      ipsum officiis aut veniam deleniti quae, quam adipisci ad autem, ratione
-      facere nihil delectus. Provident porro sequi dolorem facere cumque.
-    </p>
-    <!-- <img src="croissant.jpg" alt="croissant.com logo" class="img-fluid croissant" /> -->
+    <div class="aboutHero container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="aboutHero-content">
+            <h1 class="mb-4">Hi I am Nikolett Hartmann</h1>
+            <h2 class="mb-3">Frontend developer, based in Hungary</h2>
+            <p class="mb-4 text-muted">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Delectus, quae debitis suscipit id, porro reprehenderit aut
+              dolores labore numquam vitae eligendi modi amet officia
+              accusantium soluta corporis excepturi nemo distinctio.
+            </p>
+            <a href="#" class="btn btn-branding">View my projects</a>
+          </div>
+        </div>
+        <div class="col-md-6 d-block meContainer">
+          <img src="me1.jpg" alt="photo" class="img-fluid mx-auto rounded mePic" />
+        </div>
+      </div>
+    </div>
   </body>
 </html>
