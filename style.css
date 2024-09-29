@@ -18,62 +18,61 @@
   line-height: 1.5;
 }
 
-.content-container h1{
+.content-container h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
   line-height: 80px;
   font-weight: bold;
-
 }
-.content-container h2{
+.content-container h2 {
   font-size: 18px;
   font-family: var(--body-font-family);
   font-weight: bold;
 }
-.content-container h3{
+.content-container h3 {
   font-size: 18px;
   font-family: var(--default-font-family);
   font-weight: bold;
 }
-.content-container p{
+.content-container p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
-.content{
+.content {
   margin: 30px;
-  }
-.content-container{
+}
+.content-container {
   padding: 70px 20px;
 }
-.link{
+.link {
   color: var(--branding-color);
   text-decoration: none;
 }
-.contBackground{
+.contBackground {
   padding: 30px 20px;
   border-radius: 5px 5px 0 0;
 }
-.borderContainer{
- /*  background-color: var(--secondary-color); */
+.borderContainer {
+  /*  background-color: var(--secondary-color); */
   display: flex;
   justify-content: space-evenly;
   padding: 10px 10px;
   border: 3px solid var(--secondary-color);
-  border-radius:5px;
+  border-radius: 5px;
   height: 55px;
 }
-.borderContainer h3{
-margin-bottom:0;
-line-height: 32px;
+.borderContainer h3 {
+  margin-bottom: 0;
+  line-height: 32px;
 }
-.borderContainer a{
-color: var(--branding-color);
+.borderContainer a {
+  color: var(--branding-color);
 }
-.mePic{
- width: 300px;
+.mePic {
+  width: 300px;
 }
-.meContainer{
+.meContainer {
   margin: auto;
   text-align: center;
 }
@@ -85,7 +84,7 @@ color: var(--branding-color);
   color: #272142;
 }
 body {
-/*   margin-top: 60px; */
+  /*   margin-top: 60px; */
   font-family: var(--body-font-family);
 }
 .hero {
@@ -103,10 +102,10 @@ body {
   padding: 15px 30px;
 }
 .btn-branding:hover {
-    background-color: white;
-    color: var(--branding-color);
-    border: 1px solid var(--branding-color);
-  }
+  background-color: white;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+}
 .btn-branding-outline {
   background-color: #fff;
   border: 1px solid var(--branding-color);
@@ -121,31 +120,73 @@ body {
   background-color: var(--branding-color);
   color: #fff;
 }
-.logo{
+.logo {
   max-height: 40px;
 }
-nav ul{
+nav ul {
   margin: 0;
-  padding:0;
+  padding: 0;
 }
-nav li{
+nav li {
   display: inline;
   list-style: none;
   line-height: 40px;
   margin-left: 10px;
 }
 
-nav{
-  padding:10px 0; 
+nav {
+  padding: 10px 0;
 }
-nav a{
+nav a {
   text-decoration: none;
-  color:#272142;
+  color: #272142;
   transition: all 150ms ease-in-out;
 }
 nav a:hover,
-nav li.active a{
-  color:var(--branding-color);
+nav li.active a {
+  color: var(--branding-color);
+}
+.project-description {
+  padding: 120px 60px;
+}
+footer {
+  margin: 60px;
+}
+footer .email-link {
+  color: #272142;
+  text-decoration: none;
+  font-size: 24px;
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 60%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--branding-color);
+  background-color: #fff;
+  border: 1px solid var(--branding-color);
+}
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 5px;
+}
+footer h4{
+  font-size: 40px;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
+}
+footer .contact-box p{
+  margin: 0;
 }
 
 @media (max-width: 990px) {
@@ -160,17 +201,16 @@ nav li.active a{
   .hero h2 {
     font-size: 24px;
   }
-  
+
   .hero p {
     font-size: 18px;
   }
-  .hero{
+  .hero {
     padding: 80px 20px;
   }
-  .content-container{
+  .content-container {
     padding: 40px 20px;
-  text-align: center;
-
+    text-align: center;
   }
   .content-container h1 {
     font-size: 44px;
@@ -185,4 +225,5 @@ nav li.active a{
   nav a {
     font-size: 14px;
   }
+
 }
