@@ -90,7 +90,7 @@ body {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .btn-branding {
   background-color: var(--branding-color);
@@ -205,9 +205,7 @@ footer .contact-box p{
   .hero p {
     font-size: 18px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+ 
   .content-container {
     padding: 40px 20px;
     text-align: center;
@@ -225,5 +223,12 @@ footer .contact-box p{
   nav a {
     font-size: 14px;
   }
-
+  .borderContainer {
+    /*  background-color: var(--secondary-color); */
+    display: block;
+    padding: 10px 10px;
+    border: 3px solid var(--secondary-color);
+    border-radius: 5px;
+    height: auto;
+  }
 }

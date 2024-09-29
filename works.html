@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="This is a page about croissant..." />
+    <meta name="description" content="My works - This is a page about a frontend developer." />
 
-    <title>My portfolio - portfolio.com</title>
+    <title>Frontend developer - Nikolett Hartmann</title>
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌿</text></svg>"
@@ -36,15 +36,17 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-       <img src="logo.png" class="logo d-none d-md-block" alt="logo">
+       <a href="./index.html" title="Homepage">
+        <img src="logo.png" class="logo d-none d-md-block" alt="logo">
        <img src="logo-small.png" class="logo d-block d-md-none" alt="small logo">
+      </a>
        <ul>
          <li>
-           <a href="./index.html">Home</a>
+           <a href="./index.html" title="Homepage">Home</a>
          </li>
-         <li><a href="./about.html">About</a></li>
-         <li class="active"><a href="./works.html">Works</a></li>
-         <li><a href="./contact.html">Contact</a></li>
+         <li><a href="./about.html" title="About page">About</a></li>
+         <li class="active"><a href="./works.html" title="Works page">Works</a></li>
+         <li><a href="./contact.html" title="Contact page">Contact</a></li>
        </ul>
      </nav> 
    </div>
@@ -75,5 +77,33 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+        <h4>Work inquiry</h4>
+        <p class="text-muted">Let's work together</p>
+      </div>
+      <div class="align-content-center">
+        <a href="./contact.html" title="Contact me" class="btn btn-branding" >Contact me</a>
+      </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a href="mailto:email@gmail.com" class="email-link" title="Email"
+          >email@gmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://github.com/niki0410/" target="_blank" title="Github">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.instagram.com/reader.witch/" target="_blank" title="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://x.com/" target="_blank" title="Twitter">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">This project was coded SheCodes, and it is <a href="https://github.com/niki0410/My-portfolio" target="_blank">open-sourced</a> </p>
+    </footer>
   </body>
 </html>
